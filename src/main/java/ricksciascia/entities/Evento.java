@@ -82,5 +82,18 @@ public class Evento {
     public long getId() {
         return id;
     }
+//    to string
 
+
+    @Override
+    public String toString() {
+        return "Evento{" +
+                "id=" + id +
+                ", titolo='" + titolo + '\'' +
+                ", dataEvento=" + dataEvento +
+                ", descrizione='" + descrizione + '\'' +
+                ", tipoEvento=" + tipoEvento +
+                ", numeroMassimoPartecipanti=" + numeroMassimoPartecipanti +
+                '}';
+    }
 }
